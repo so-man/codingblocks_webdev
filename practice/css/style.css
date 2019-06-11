@@ -1,0 +1,20 @@
+* {
+    color:red /*will make every thing red */
+
+}
+#p1 {
+    color: black;
+    font-size:2 0px;
+    font-family: "Courier";
+    margin-left:10px;
+    
+}
+#p2{
+    font-size: 50px;
+}
+.osmpara{
+    background-color: lightpink;
+}
+.bigpara{
+    font-size: 50px;
+}
