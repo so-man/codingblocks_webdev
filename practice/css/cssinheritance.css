@@ -1,0 +1,17 @@
+/* id has higher precendnce then class then * */
+#d1{
+    background-color: blue
+}
+*{
+    background-color: aqua
+}
+div{
+    background-color: brown
+}
+.c1{
+    background-color: blanchedalmond
+}
+div{
+    background-color: crimson
+}
+

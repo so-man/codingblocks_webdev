@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssinheritance.css">
+    <style> /* in style we write css language*/
+    *{
+        background-color: bisque/* here this is having higher precedence just because it is wriiten after the link atribute*/
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="c1" id="d1">
+        div 1
+    </div>   
+    <div class="c1" id="d2">
+        div 2
+    </div> 
+    <div class="c2" id="d3">
+        div 3
+    </div>
+    <div style="background-color: darkgreen"><!-- inline style atribute has highest precendence-->
+        div 4
+    </div>
+</body>
+</html>
