@@ -1,0 +1,13 @@
+div p{
+    color: rgb(223, 136, 22);
+    background-color:pink;
+}
+#hello:last-child{
+    color: black;
+}
+a:visited{
+    color: red
+}
+a:hover{
+    color: chartreuse;
+}

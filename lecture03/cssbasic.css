@@ -1,0 +1,32 @@
+*{
+   color: rgba(214, 46, 206, 0.493) 
+}
+html{
+    color: red
+}
+p{
+    color:chartreuse;
+    /*font-size: 2em;*//*multiple of diffault size*/
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;/* here three fonts are given if brower is unable to apply first one it will apply another*/
+
+}
+#p1{
+    color: blueviolet;
+}
+/*
+.item{
+    color: turquoise
+}
+#html{
+    font-family: cursive;
+    color: brown;
+}*/
+input[type="text"]{
+    color: blue;
+    
+
+}
+ul>li{
+    color: darkblue;
+}

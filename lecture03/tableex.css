@@ -1,0 +1,28 @@
+#table{
+   background-color: lightpink ;
+    border-collapse: collapse;
+}
+tr:nth-of-type(2n){
+    background-color: white;
+}
+
+th:nth-child(n){
+    background-color: white;
+}
+#h1{
+    padding-right: 20px;
+    padding-left: 15px
+}
+#h2{
+    padding-right:50px;
+}
+#h3{
+    padding-right:80px;
+}
+tr>td:hover{
+    color: chartreuse;
+}
+tr{
+    border: 1px solid black;
+}
+

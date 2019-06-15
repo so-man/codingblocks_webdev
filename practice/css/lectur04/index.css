@@ -1,0 +1,46 @@
+.header > div{
+    display: inline-block; 
+    width: 10%;
+    float: left;  
+    padding: 20px;
+    text-align: center;
+}
+.header > div >ul{
+    display: none;;
+    transform: translateX(20px);
+    
+}
+.header ul{
+    background-color: darkgray;
+    color: #fff;
+    width:100%;
+    height: 250px;
+}
+.header ul li{
+    transform: translateX(-100px);
+}
+.header >div> ul>li{
+    display: none;
+    
+}
+.header > div:hover {
+    background-color: rgba(157, 255, 0, 0.514);
+   
+}
+
+.header > div:hover ul{
+    display: block;
+}
+.header{
+
+    width: 1280px;
+    height: 62px;
+    font-family: cursive;
+    color: #fff;
+    background-color:#333;
+    transform: translateX(-10px);
+}
+.main-container{
+
+}
+

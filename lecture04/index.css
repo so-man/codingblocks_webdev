@@ -1,0 +1,16 @@
+p{
+    color: red;
+
+}
+div p{
+    color: blue;
+}
+div > span{
+    color:pink;
+}
+div+p{
+    color:lime;
+}
+div~p{
+    background-color:yellow;
+}
