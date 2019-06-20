@@ -1,0 +1,34 @@
+div{
+    background: peru;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width:1000px){
+    .div1{
+        background-color: red;
+    }
+}
+@media (max-width:750px){
+    .div1{
+        background-color:black;
+    }
+}
+@media (max-width:500px){
+    .div1{
+        background-color:lime;
+    }
+}
+
+@media(max-width:900px){
+    .div1{
+        width: 75px;
+        height: 75px;
+    }
+}
+@media (max-width:500px){
+    .div1{
+        width:50px;
+        height: 50px;
+    }
+}

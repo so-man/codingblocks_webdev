@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin: 10px;
+}
+#div2{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}

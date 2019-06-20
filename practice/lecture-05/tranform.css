@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color:orangered;
+    margin:20px;
+}
+.div1{
+    /* transform: translate(50%,50%); */
+    transition: width 2s, background 2s; 
+}
+.div2{
+    /* transform: skew(30deg);
+    transform: rotateX(60deg); */
+    /* transform: skewY(30deg); */
+    transform: scaleY(-0.5);
+
+}
+.div1:hover{
+    background-color:pink;
+    width: 300px;
+    transition: width 2s, background 2s; 
+}

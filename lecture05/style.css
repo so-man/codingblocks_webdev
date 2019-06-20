@@ -1,0 +1,15 @@
+#container{
+    height: auto;
+    width: auto;
+    background-color:lightcyan;
+    display: flex; 
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+div{
+    height: 50px;
+    width:50px;
+    background-color: blueviolet;
+    margin: 10px;
+
+}
