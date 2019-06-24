@@ -7,4 +7,4 @@ function print(n){
     para.innerHTML=string
 }
 
-print(10);
+print(1)
