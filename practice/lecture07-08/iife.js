@@ -1,3 +1,5 @@
+/*IMEDIATELY INVOKED FUNCTION */
+
 // (function(){
 //     console.log("say hello")
 // })();

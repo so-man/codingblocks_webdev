@@ -11,11 +11,17 @@
 // let sum=add;
 // console.log(sum)
 
-function getfirstname(fullname){
-    return fullname.split(" ")[0]
+// function getfirstname(fullname){
+//     return fullname.split(" ")[0]
+// }
+// function greeter(findname,fullname){
+//     let firstname=findname(fullname)
+//     console.log(`hello ${firstname}`)
+// }
+// greeter(getfirstname,"sus DarkWolf")
+
+function yo(){
+    console.log("hello" + x)
 }
-function greeter(findname,fullname){
-    let firstname=findname(fullname)
-    console.log(`hello ${firstname}`)
-}
-greeter(getfirstname,"sus DarkWolf")
+x=yo;
+console.log(typeof x)
