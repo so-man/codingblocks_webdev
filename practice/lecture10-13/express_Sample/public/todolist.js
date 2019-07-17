@@ -10,8 +10,8 @@ $(function(){
          {task:newtask},
          function(data){
             todolist.empty()
-            for(todo of data){
-               todolist.append('<li>'+ todo.task +'</li>')
+            for(todos of data){
+               todolist.append('<li>'+ todos.task +'</li>')
             }
          }
       )
