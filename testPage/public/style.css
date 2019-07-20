@@ -1,0 +1,122 @@
+/* .navContainer{
+   transform: translateY(10px);
+   display: flex;
+   width: 100%;
+   height: 75px;
+   background-color: rgba(255, 60, 0, 0.924);
+}
+.navContent{
+   list-style: none;
+   display: flex;
+
+}
+.img{
+   transform: translateY(-10px)
+}
+
+li{
+   margin-left:5px;
+   margin-right: 5px; 
+   border: solid orange 1px;
+   height:50px;
+   width: 50px;
+
+} */
+
+body{
+   background-color: wheat;
+}
+.welcome{
+   border-bottom:dotted 2px gray; 
+}
+
+.navbar-light{
+  margin-top:10px; 
+   background-color: red;
+   height: 100px;
+
+
+}
+.navbar-brand{
+   padding: 0px;
+   margin: 0px;
+
+}
+.navbar{
+   padding: 0.2rem;
+   position:static;
+   /* top:15px; */
+}
+
+.btn-outline-success {
+   color:gray;
+   border-color:white;
+   background-color: white
+ }
+ 
+ .btn-outline-success:hover {
+   color: #fff;
+   background-color: #28a745;
+   border-color: #28a745;
+ }
+.nav-item{
+   margin:5px;
+   border: 1px solid rgb(255, 51, 0);
+   background-color: rgb(255, 51, 0);
+   box-shadow: grey 5px 5px 10px;
+
+}
+.nav-link{
+   color: white !important;
+}
+.form-control{
+   height: calc(1.5em + 0.75rem + 2px);
+   width:10px;
+} 
+
+/*CSS styling for the nav bar end here*/
+
+
+/*CSS styling for main body starts here*/
+.bodyContent{
+   margin-top:20px; 
+   background-color: white;
+}
+.left-body{
+   height: auto;
+}
+.right-body{
+   height:auto;
+}
+
+.home-image{
+   
+   background-image: url(./RajPath.jpg)  ;
+   /* background-repeat:no-repeat;
+   background-size:100%;  
+   height: 200px; 
+   position: relative;
+   display: flex; */
+   width: 100%;
+   height:70vh;
+    /* background-image: url(../33.jpg); */
+   position: relative;
+    
+   background-size: cover;
+} 
+.image-para{
+   color: white;
+   font-weight:500; 
+   margin: 0px;
+   padding:2px;
+   /* border: solid 5px rgba(128, 128, 128, 0.493); */
+   background-color:rgba(0, 0, 0, 0.486);
+   width:300px;
+   position:absolute;
+   bottom: 50px;
+   font-size:20px;
+}
+.footer{
+   margin-top: 20px;
+   border: #333333 solid 2px; 
+}
