@@ -22,6 +22,9 @@ li{
    width: 50px;
 
 } */
+*{
+   font-family: 'Times New Roman', Times, serif;
+}
 
 body{
    background-color: wheat;
@@ -47,7 +50,13 @@ body{
    position:static;
    /* top:15px; */
 }
-
+.nav-item{
+   font-size:0.8em;
+}
+.end-brand{
+   /* float: right !important; */
+   justify-content: flex-end
+}
 .btn-outline-success {
    color:gray;
    border-color:white;
@@ -63,8 +72,12 @@ body{
    margin:5px;
    border: 1px solid rgb(255, 51, 0);
    background-color: rgb(255, 51, 0);
-   box-shadow: grey 5px 5px 10px;
+   box-shadow: grey 5px 5px 5px;
 
+}
+.fb{
+   overflow-y : auto;
+   height: 500px;
 }
 .nav-link{
    color: white !important;
