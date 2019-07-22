@@ -34,16 +34,16 @@ body{
 }
 
 .navbar-light{
-  margin-top:10px; 
+   margin-top:10px;  
    background-color: red;
-   height: 100px;
+   height: 150px;
 
 
 }
 .navbar-brand{
    padding: 0px;
    margin: 0px;
-
+   /* transform: translatex(-4px) */
 }
 .navbar{
    padding: 0.2rem;
@@ -62,7 +62,9 @@ body{
    border-color:white;
    background-color: white
  }
- 
+.navContainer{
+  margin-left: 30px;
+}
  .btn-outline-success:hover {
    color: #fff;
    background-color: #28a745;
@@ -132,4 +134,10 @@ body{
 .footer{
    margin-top: 20px;
    border: #333333 solid 2px; 
+}
+/* .nav{
+   height: 
+} */
+.end-brand{
+   /* transform: translateX(4px) */
 }
