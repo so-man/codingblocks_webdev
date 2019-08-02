@@ -1,6 +1,7 @@
 {
-  "name": "mysqlproject1",
+  "name": "sockets",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,9 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mysql2": "^1.6.5",
-    "mysql3": "^0.3.1"
-  },
-  "devDependencies": {},
-  "description": ""
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
 }
